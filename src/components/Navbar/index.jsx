@@ -5,7 +5,7 @@ import { navbarItems } from '../../data/navbarItems';
 
 export default function Navbar() {
   const ThemeIcon = () => {
-    const [darkTheme, setDarkTheme] = useDarkMode();
+    const [darkTheme, setDarkTheme] = useDarkMode('darkmode', true);
     const handleMode = () => setDarkTheme(!darkTheme);
     return (
       <span
