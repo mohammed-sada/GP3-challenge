@@ -1,0 +1,23 @@
+import google from '../assets/google.png';
+import slack from '../assets/slack.png';
+import atlassin from '../assets/atlassian.png';
+import dropbox from '../assets/dropbox.png';
+import shopify from '../assets/shopify.png';
+
+export const logos = [
+    {
+        logo: google
+    },
+    {
+        logo: slack
+    },
+    {
+        logo: atlassin
+    },
+    {
+        logo: dropbox
+    },
+    {
+        logo: shopify
+    },
+];
